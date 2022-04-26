@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fae0c6;
+  color: #a53860;
+}
+
+h1 {
+  text-align: center;
+  color: #450920;
+}
+
+section {
+  text-align: center;
+}
+
+.gameBoard {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 306px;
+  margin: 50px auto;
+
+}
+
+.cell {
+  font-family: "Permanent Marker", cursive;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0 1px #da627d;
+  border: 1px solid #da627d;
+  cursor: pointer;
+  line-height: 100px;
+  font-size: 60px;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #a53860;
+  color: #ffa5ab;
+  border-radius: 25px;
+  border: 2px solid #ffa5ab;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffa5ab;
+  color: #a53860;
+  border: 2px solid #a53860;
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+#big {
+  font-size: 50px;
+  color: #a53860;;
+}
